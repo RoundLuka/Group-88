@@ -1,0 +1,47 @@
+syntax - წერის წესების
+() - ბრჩხილები
+'' - ბრჭყალები
+variable - ცვლადი
+variable name - ცვლადის სახელი
+variable value - ცვლადის მნიშვნელობისგან
+
+
+Paragraph - ტექტსი
+header - სათაური
+
+Level 04:
+assign - მინიჭება
+parenthesis - ბრჩხილები
+quotation marks - ბრჭყალები
+
+Level 05:
+image - სურათი
+source - წყარო
+uppercase - დიდი სიმბოლები
+lowercase - პატრა სიმბოლოები
+
+Level 07:
+bold - მუქი
+underline - ქვედახაზი
+anchor - ღუზა
+
+Level 09:
+order - დალაგებული, წყობა
+unorder - დაულაგებელი
+contain - შეიცავს
+bullet point - წერტილოვანი პუნტქი
+attribute - მახასიათებელი
+
+Level 10:
+decimal - ათწიალდი
+explicit - ხელოვნური
+implicit - ბუნებრივი
+comparsion - შედარება
+
+# Level 12
+not - უარყოფა
+and - და
+or - ან
+sequence - მიმდევრობა
+loop - მარყუჟი, ციკლი
+range - დიაპაზონი, წვდომის არეალი

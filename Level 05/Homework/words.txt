@@ -1,0 +1,24 @@
+ვისწავლე სიტყვები
+
+ისწავლეთ ახალი სიტყვები:
+
+source (src) - წყარო
+search - ძიება
+server - კომპიუტერი რომელიც მუდმივ კავშირშია ინტერნეტთან
+location/address - მისამართი
+typo - წერითი შეცდომა
+case insensitive - დიდი/პატარა ასოების მიმართ გულგრილი
+search engine - საძიებო ძრავა
+request - მოთხოვნა
+level - დონე
+empty - ცარიელი
+temporarily - დროებით
+disable - გამორთვა
+organize - მოწესრიგება, დალაგება
+explain - ახსნა, განმარტება
+white space - 1-ზე მეტი space
+line break - ხაზის გაწყვეტა
+head - თავი
+body - ტანი
+content - შიგთავსი
+nesting - ჩაშენება
