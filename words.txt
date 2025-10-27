@@ -45,3 +45,10 @@ or - ან
 sequence - მიმდევრობა
 loop - მარყუჟი, ციკლი
 range - დიაპაზონი, წვდომის არეალი
+
+level 13:
+submit - დადასტურება
+label - ეტიკეტი
+require - საჭიროება
+while - სანამ
+infinite - უსასრულო
