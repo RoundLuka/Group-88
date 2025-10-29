@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+    select - კონტეინერ თეგი, ქმნის ჩამოსასლელ მენიუს
+    option - კონტეინერ თეგი რომელიც ყოველთვის იწერება <select> თეგში და ამატებს ამატებს ასარჩევ ვარიანტს მენიუში
+    -->
+
+    <form>
+        <label for="">Username</label>
+        <input />
+        <br>
+        <label for="carBrand" type="text">Car brand</label>
+        <select name="CarBand" id="carBrand">
+            <option value="BMW">BMW</option>
+            <option value="">Toyota</option>
+            <option>Lexus</option>
+            <option selected>Nissan</option>
+            <option>Hyundai</option>
+            <option>Honda</option>
+            <option>Mustang</option>
+        </select>
+        <br>
+        <label>Year</label>
+        <input type="number" />
+        <br>
+
+        <label for="nationality">Pick nationality</label>
+        <select name="nationality" id="nationality">
+            <option value="GE">Georgia</option>
+            <option value="EN">British</option>
+            <option value="RU" >Russian</option>
+            <option value="BR" selected>Brazil</option>
+            <option value="Fi">Finland</option>
+        </select>
+        <br>
+        <input type="submit">
+    </form>
+    
+</body>
+</html>
