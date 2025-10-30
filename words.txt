@@ -54,5 +54,3 @@ while - სანამ
 infinite - უსასრულო
 
 level 15:
-select - შერჩევა
-option - ვარინატი
