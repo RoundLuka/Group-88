@@ -54,3 +54,11 @@ while - სანამ
 infinite - უსასრულო
 
 level 15:
+
+level 17:
+header - სათაური
+main - ძირითადი
+footer - დასვკნითი
+article - სტატია
+section - განყოფილება
+aside - გვერდითი 
