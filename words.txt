@@ -62,3 +62,10 @@ footer - დასვკნითი
 article - სტატია
 section - განყოფილება
 aside - გვერდითი 
+
+level 18:
+if - თუ
+else - სხვა შემთხვევაში
+condition - პირობა
+break - შეწყვეტა
+continue - გაგრძელება
