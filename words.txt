@@ -55,13 +55,17 @@ infinite - უსასრულო
 
 level 15:
 
-level 17:
-header - სათაური
-main - ძირითადი
-footer - დასვკნითი
+level 17::
+responsive - მორგებადი
 article - სტატია
-section - განყოფილება
-aside - გვერდითი 
+section - სექცია
+aside - განზე
+color - ფერი
+background-color - ფონის ფერი
+font-size - შრიფტის ზომა
+font-weight - ტექსტის სისქე
+text-align - ტექსტის განლაგება
+border - საზღვარი
 
 level 18:
 if - თუ
@@ -69,3 +73,4 @@ else - სხვა შემთხვევაში
 condition - პირობა
 break - შეწყვეტა
 continue - გაგრძელება
+
