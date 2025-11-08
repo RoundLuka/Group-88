@@ -74,3 +74,6 @@ condition - პირობა
 break - შეწყვეტა
 continue - გაგრძელება
 
+level 19
+property - კუთვნილება
+divide - დაყოფა
