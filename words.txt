@@ -77,3 +77,6 @@ continue - გაგრძელება
 level 19
 property - კუთვნილება
 divide - დაყოფა
+
+level 21:
+row - რიგი
