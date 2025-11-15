@@ -80,3 +80,7 @@ divide - დაყოფა
 
 level 21:
 row - რიგი
+
+level 22:
+mutation - ცვლილება
+slice - ნაჭერი
