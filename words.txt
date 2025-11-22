@@ -84,3 +84,6 @@ row - რიგი
 level 22:
 mutation - ცვლილება
 slice - ნაჭერი
+
+level 24:
+length - სიგრძეს
