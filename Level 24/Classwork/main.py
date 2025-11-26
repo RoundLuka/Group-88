@@ -58,4 +58,4 @@ import random
 
 # random.randrange(2, 10)
 print(random.seed(42))
-
+print(range(2, 5))

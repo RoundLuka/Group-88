@@ -1,0 +1,39 @@
+# 1. Clone forked repo (MAIN account)
+git clone https://github.com/MAIN-USERNAME/repo.git
+cd repo
+
+# 2. (OPTIONAL) set original repo as upstream
+git remote add upstream https://github.com/ALT-USERNAME/repo.git
+
+# 3. Make code changes now (edit files)
+
+# 4. Check what changed
+git status
+
+# 5. Stage changes
+git add .
+
+# 6. Commit changes
+git commit -m "your message"
+
+# 7. Push to your fork
+git push origin main
+
+# 8. Sync fork with original (if needed)
+git fetch upstream
+git merge upstream/main
+git push origin main
+
+
+
+
+git pull
+git branch
+git checkout -b new-branch
+git log
+git diff
+
+
+git branch
+git checkout branch-name
+git branch -d demo-branch
