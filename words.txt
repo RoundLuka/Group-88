@@ -87,3 +87,11 @@ slice - ნაჭერი
 
 level 24:
 length - სიგრძეს
+
+level 28:
+append - ბოლოს დამატება
+insert - ჩასმა
+extend - გაგრძელება
+pop - ამოგდება
+remove - წაშლა
+return - დაბრუნებას
