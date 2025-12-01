@@ -95,3 +95,6 @@ extend - გაგრძელება
 pop - ამოგდება
 remove - წაშლა
 return - დაბრუნებას
+
+level 29:
+shadow - ჩრდილი

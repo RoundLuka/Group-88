@@ -1,0 +1,46 @@
+
+
+/*
+text-decoration-line
+text-decoration-style
+text-decoration-color
+*/
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+p {
+    text-align: justify;
+
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: red;
+
+    text-decoration: underline dashed red;
+    
+    font-family: 'Caveat';
+} */
+
+/* p {
+    
+    1. მარჯვნივ რამდენი pixel-ით დაშორდეს საწყისი ტექსტის ადგილს (უარყოფითის შემთხვევაში მარცხნივ)
+    2. ქვევით რამდენით წავიდეს (უარყოფითის შემთხვეაში ზევით)
+    3. დაბურვის მაჩვენლი
+    4. ჩრდილის ფერი
+    
+    text-shadow: 8px 4px #4296ce;
+    font-family: Arial, sans-serif;
+} */
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgba(128, 0, 128, 0.594);
+    text-shadow: 4px 3px 7px purple;
+}
+
+a:active {
+    color: green;
+}
