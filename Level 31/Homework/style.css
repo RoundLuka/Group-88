@@ -1,0 +1,32 @@
+/* ol {
+    list-style-position: inside;
+    list-style-type: lower-alpha;
+} */
+
+input {
+    border: 2px solid gray;
+    color: rgb(30, 180, 118);
+    background-color: rgb(30, 67, 118);
+
+    width: 200px;
+    height: 25px;
+
+    border-radius: 8px;
+}
+
+input[type="email"] {
+    background-color: green;
+}
+
+input[type='password']:focus {
+    background-color: brown;
+}
+
+/* div {
+    width: 300px;
+    height: 300px;
+    background-color: green;
+
+    border: 10px solid rgb(155, 155, 0);
+    border-radius: 50%;
+} */

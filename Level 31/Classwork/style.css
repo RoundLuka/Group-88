@@ -1,0 +1,56 @@
+/*
+state - ელემენტის მდგომარეობა, ელემენტს აქვს სხვადასხვა მდგომარობები: კურსორის-ქვეშ, კურსორით დავაწექით (არ აგვშივია მაუსზე ხელი), 
+
+pseudo class selector - სელექტორის ტიპი რომელიც გამოიყენება ელემენტის კონკრეტული მდგომარეობის გასტილვისთვის
+
+hover 
+active
+
+<a>
+link
+visited
+*/
+
+/* button:hover {
+    background-color: green;
+}
+
+button:active {
+    box-shadow: 5px 5px 25px rgb(58, 109, 58);
+} */
+
+/* a {
+    text-decoration: none;
+}
+
+a:link {
+    color: purple;
+}
+
+a:visited {
+    color: yellow;
+} */
+
+/* table {
+    border: 1px solid black;
+}
+
+table thead {
+    background-color: green;
+}
+
+th, td {
+    border: 1px solid red;
+}
+
+tr:nth-child(even) {
+    background-color: gray;
+}
+
+td:nth-child(2) {
+    background-color: purple;
+}
+
+#table2 {
+    border-collapse: separate;
+} */
