@@ -98,3 +98,7 @@ return - დაბრუნებას
 
 level 29:
 shadow - ჩრდილი
+
+level 34:
+rest - დანარჩენი
+clear - გასფუთავება

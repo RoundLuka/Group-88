@@ -24,12 +24,24 @@ fruit = ("Apple", "Grapes", "Peach", "Grapes")
 # print(fruit.count("Grapes"))
 # print(fruit.index("Peach"))
 
-def manual_count(sequence, target):
-    count = 0
-    for element in sequence:
-        if element == target:
-            count += 1
-    return count
+# def manual_count(sequence, target):
+#     count = 0
+#     for element in sequence:
+#         if element == target:
+#             count += 1
+#     return count
 
-result = manual_count(fruit, "Grapes")
-print(result)
+# result = manual_count(fruit, "Grapes")
+# print(result)
+
+def manual_index(sequence, target):
+
+    for index in range(len(sequence)):
+
+        if sequence[index] == target:
+            return index
+    
+    return -1, -2
+
+print(manual_index(fruit, "Cherry"))
+
