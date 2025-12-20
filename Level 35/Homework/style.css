@@ -7,7 +7,7 @@ body {
     background-color: rgb(16, 139, 216);
     padding: 20px;
     
-    height: 50vh;
+    height: 30vh;
 
     position: relative;
 }
@@ -29,7 +29,7 @@ sticky - წებოვანი პოზიცია, რომელიც �
 .one {
     background-color: #49b649;
 
-    position: sticky;
+    position: relative;
     
     top: 0;
 }
@@ -41,3 +41,26 @@ sticky - წებოვანი პოზიცია, რომელიც �
 .three {
     background-color: #4c157f;
 }
+
+/* .container {
+    margin-top: 10%;
+
+    width: 100%;
+    border: 5px solid red;
+
+    display: flex;
+}
+
+.child {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(166, 19, 112);
+    border: 3px solid black;
+} */
+
+/* .second {
+    position: absolute;
+    top: 200px;
+    right: 150px;
+    z-index: 12;
+} */
