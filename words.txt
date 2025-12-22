@@ -107,3 +107,7 @@ level 36:
 split - დაყოფა, გახლეჩა
 join - შეერთებას, შესვლას
 replace - ჩანაცვალებს
+
+level 38:
+dictionary - ლექსიკონი
+comperhensions - მოკლე ახსნა
