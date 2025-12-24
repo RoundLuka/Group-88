@@ -111,3 +111,10 @@ replace - ჩანაცვალებს
 level 38:
 dictionary - ლექსიკონი
 comperhensions - მოკლე ახსნა
+
+level 39:
+transform - გარდაქმნა
+translate - გადატანა
+rotate - მობრუნება
+scale - სკლაირება
+skew - გაწელვა

@@ -1,0 +1,53 @@
+
+/* 
+transform - გარდაქმნა
+
+transform-ის ქვე კუთვნილებები, მეთოდები:
+
+scale - სკლაირება (ზომაში) ღებულობს რიცხვით პარამეტრს
+rotate - მობრუნება, ღებულობს გრადუს ერთეულს
+translate - გადატანა, ღებულობს ერთეულებს px
+skew - გაწელვა, ღებულობს ერთულებს deg 
+
+
+transition - გადასვლა
+*/
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: seagreen;
+    width: 200px;
+    height: 200px;
+
+    border-top: 5px solid red;
+    transition-property: width;
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.12, 2.61);
+    transition-delay: 2s;
+}
+
+.container:hover {
+    width: 500px;
+}
+
+
+/* 
+transition
+
+transition-property - კუთვნილება რომელსაც უნდა დავამატოთ გადასვლა
+transition-duration - გადასვლის ხანგრძლივობა
+transition-timing-function - დროითი ფუქნცია
+tranisiton-delay - გადასვლის დაყოვენბა
+*/
