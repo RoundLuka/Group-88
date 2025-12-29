@@ -118,3 +118,6 @@ translate - გადატანა
 rotate - მობრუნება
 scale - სკლაირება
 skew - გაწელვა
+
+level 41:
+keyframe - მთავარი ჩარჩო
