@@ -1,0 +1,24 @@
+body {
+    font-size: 5em;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+
+}
+
+.item {
+    background-color: rgb(154, 133, 11);
+    border: 2px solid gray;
+    height: 500px;
+}
+
+.item-1 {
+    grid-column: span 3;
+}
+
+.item-5 {
+    grid-column: span 3;
+}
