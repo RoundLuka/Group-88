@@ -1,0 +1,47 @@
+.box {
+    width: 100%;
+    height: 5vh;
+    background-color: rgba(24, 148, 101, 0.558);
+
+    display: flex;
+    justify-content: center;
+
+    gap: 5%;
+
+    padding: 10%;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    font-size-adjust: 1;
+}
+
+
+@media (1000px >= width) {
+    
+}
+
+@media (min-width: 1000px) {
+    .box {
+        background-color: blue;
+        flex-direction: column;
+    }
+
+    button {
+        width: 150px;
+        height: 40px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .box {
+        background-color: purple;
+    }
+}
+
+@media (min-width: 1500px) {
+    .box {
+        background-color: seagreen;
+    }
+}
