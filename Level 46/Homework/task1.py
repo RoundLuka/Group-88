@@ -55,3 +55,8 @@ with open("clean.txt", "w", encoding="utf-8") as file:
 
 print(f"Lines word count: {word_counts}")
 print(f"Longest line: {longest}")
+
+my_data = {
+    "A": 10,
+    "B": 20
+}
