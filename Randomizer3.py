@@ -38,4 +38,3 @@ print("მეორე გუნდი " + str(captain2))
 print("მესამე გუნდი " + str(captain3))
 print("მეოთხე გუნდი " + str(captain4))
 print("მეხუთე გუნდი " + str(captain5))
-
