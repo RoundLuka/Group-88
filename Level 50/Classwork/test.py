@@ -148,16 +148,17 @@
 # decorator
 
 def decorator(func):
-    def wrapper():
+    def wrapper(*args, **kwargs):
         print("-----Start------")
-        func()
+        func(*args, **kwargs)
         print("-----End------")
     return wrapper
 
 @decorator
-def func1():
-    print("Hello function 1")
+def func1(name, special, ):
+    print(f"Hello {name} {special}")
     return '5'
+
 
 # ------------
 
@@ -165,5 +166,4 @@ def func1():
 def func2():
     print("fujnction 2")
 
-func1()
-func2()
+func1("Luka", special="a")
