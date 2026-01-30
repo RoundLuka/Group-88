@@ -76,4 +76,4 @@ class Archer(Fighter):
 
 wizard = Archer(30, 50, 20, 100, 22)
 
-print(wizard.health123)
+# print(wizard.health123)
