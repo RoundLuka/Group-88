@@ -29,19 +29,28 @@
 # print(samurai.health)
 
 # კლასი ზოგადი ცნება, რომლითაც ვაგებთ ერთგვარ ელემენტებს
-class Gamer:
-    count = 0
-    def __init__(self, game, time_played):
-        self.favourite_game = game
-        self.hours = time_played
-        Gamer.count += 1
+# class Gamer:
+#     count = 0
+#     def __init__(self, game, time_played):
+#         self.favourite_game = game
+#         self.hours = time_played
+#         Gamer.count += 1
     
-    def play(self):
-        self.hours += 1
+#     def play(self):
+#         self.hours += 1
 
-    @classmethod
-    def count_gamers(cls):
-        print(cls.count)
+#     @classmethod
+#     def count_gamers(cls):
+#         print(cls.count)
+    
+#     @staticmethod
+#     def check_life(hours):
+#         if hours > 10000:
+#             print("no life, go touch grass")
+#         else:
+#             print("You might survive")
+
+# Gamer.check_life(5000)
 
 # კლასის კონკრეტულ წარმომადგენებლს ვუწოდებთ ინსტანციებს/ობიექტი
 # irakli = Gamer("RD2", 100)
