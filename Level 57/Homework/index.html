@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <input id="user" type="text" placeholder="Username" required/>
+        <input id="pass" type="password" placeholder="Password"  required/>
+    </form>
+    <button onclick="onSend()">Send</button>
+
+    <script>
+        
+
+        let user = document.getElementById("user")
+        let pass = document.getElementById("pass")
+
+        function onSend() {
+            console.log((pass.value).length < 8)
+            if ((pass.value).length < 8) {
+                let warning = document.createElement("p")
+                document.body.appendChild(warning)
+                warning.style.backgroundColor = "#FF00000a"
+                warning.textContent = "Password must be 8 characters long"
+            } 
+        }
+    </script>
+</body>
+</html>

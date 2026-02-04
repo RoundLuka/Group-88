@@ -31,11 +31,24 @@
 // console.log(sumArray([2, 26, 1, 5, 2]))
 //          -3  -2  -1
 
-let word = "Something"
-let reversed = "";
+// let word = "Something"
+// let reversed = "";
 
-for(let i = word.length - 1; i >= 0; i--) {
-    reversed += word[i]
+// for(let i = word.length - 1; i >= 0; i--) {
+//     reversed += word[i]
+// }
+
+// console.log(reversed)
+
+// 21-2
+
+// for (let i = 22; i >= 2; i -= 1) {
+//     console.log(i)
+// }
+
+let answer = ""
+let desiered = "yes master"
+
+while (answer !== desiered) {
+    answer = prompt("Enter YOUR ANSWER: ")
 }
-
-console.log(reversed)
