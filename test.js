@@ -46,9 +46,27 @@
 //     console.log(i)
 // }
 
-let answer = ""
-let desiered = "yes master"
+// let answer = ""
+// let desiered = "yes master"
 
-while (answer !== desiered) {
-    answer = prompt("Enter YOUR ANSWER: ")
+// while (answer !== desiered) {
+//     answer = prompt("Enter YOUR ANSWER: ")
+// }
+
+// let languages = ["HTML", "CSS", "JS"]
+
+
+// languages.push("Python")
+// languages.push("Lua")
+
+// // languages.pop()
+
+// languages[10] = "ertger"
+// console.log(languages)
+
+let cities = {
+    [0]: "Samtredia",
+    [1]: "Senaki",
+    [2]: "Zugdidi",
+    [3]: "Ochacmchire"
 }
