@@ -64,9 +64,28 @@
 // languages[10] = "ertger"
 // console.log(languages)
 
-let cities = {
-    [0]: "Samtredia",
-    [1]: "Senaki",
-    [2]: "Zugdidi",
-    [3]: "Ochacmchire"
-}
+// let cities = {
+//     [0]: "Samtredia",
+//     [1]: "Senaki",
+//     [2]: "Zugdidi",
+//     [3]: "Ochacmchire"
+// }
+
+
+// fibbonaci 
+
+// n = 5
+// 0, 1, 1, 2, 3
+// 0, 1, 1, 2, 3, 5, 8, 13, 21
+
+function fibbonaci(n) {
+    let sequence = [0, 1];
+    
+    for( let i = 2; i < n; i++) {
+        let newElement = sequence[i - 1] + sequence[i - 2];
+        sequence.push(newElement)
+    };
+    return sequence;
+};
+
+console.log(fibbonaci(7))
