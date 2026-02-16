@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('assets/fonts/Poppins-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    background-color: hsl(0, 0%, 94%);
+
+    font-size: 32px;
+}
+
+.attribution { font-size: 11px; text-align: center; margin-top: 50px;}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: hsl(0, 0%, 100%);
+    width: 1440px;
+    height: 80vh;
+    padding: 150px;
+
+    border-end-end-radius: 30%;
+}
+
+#dateForm {
+    display: flex;
+
+    gap: 80px;
+    margin-bottom: 75px;
+}
+
+.dateInput .inputLabel {
+    font-family: 400i;
+    color: hsl(0, 1%, 44%);
+    font-weight: 700;
+}
+
+.dateInput input{
+    width: 250px;
+    height: 100px;
+
+    border-radius: 10px;
+    border: 2px solid hsl(0, 0%, 86%);
+
+    font-weight: 700;
+    font-size: 60px;
+
+    margin: 20px;
+    padding: 20px;
+}
+
+.dateInput input:hover {
+    border-color: hsl(259, 100%, 65%);
+}
+
+.error-label {
+    color: hsl(0, 100%, 67%);
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+}
+
+.dateDisplay {
+    display: flex;
+}
+
+.dateDisplay p {
+    display: inline;
+}
+
+#splitter {
+    display: flex;
+    flex-direction: column;
+}
+
+#submit {
+    width: 125px;
+    height: 125px;
+    
+    border-radius: 50%;
+    background-color: hsl(259, 100%, 65%);
+
+    align-self: flex-end;
+    
+    position: relative;
+    bottom: 55px;    
+}
+
+#submit:active {
+    background-color: hsl(0, 0%, 8%);
+}
+
+#dateDisplayWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dateDisplay p {
+    font-size: 100px;
+    font-weight: 800i;
+
+}
+
+.dateTime {
+    font-size: 80px;
+    font-weight: 800i;
+
+    margin-right: 30px;
+
+    color: hsl(259, 100%, 65%);
+}
+
