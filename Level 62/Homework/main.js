@@ -107,6 +107,8 @@ let positionX = 0;
 let positionY = 0;
 let direction = "right"
 
+// go right
+
 
 function Animate() {
 
@@ -142,7 +144,7 @@ function Animate() {
         }
     }
 
-    box.style.left = `${positionX}px`
+    box.style.left = positionX + 'px'
     box.style.top = `${positionY}px`
 }
 
