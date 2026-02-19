@@ -37,11 +37,11 @@ prevBtn.onclick = function () {
 // getItem - ელემენტის წამოღება
 // removeItem - ელემენტის წაშლა
 
-localStorage.setItem("Name", "John")
-localStorage.setItem("Surname", "Doe")
+// localStorage.setItem("Name", "John")
+// localStorage.setItem("Surname", "Doe")
 
-let Name = localStorage.getItem("Name")
+// let Name = localStorage.getItem("Name")
 
-localStorage.removeItem("Surname")
+// localStorage.removeItem("Surname")
 
-document.cookie = ""
+// document.cookie = ""
