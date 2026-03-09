@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+    let data = [
+        {
+            "Academy": "Goal Oriented Academy",
+            "Students": 1000,
+            "CEO": "Nika Keshelava",
+            "Group-88-is-Best": true
+        },
+        {
+            "Academy": "Unknown",
+            "Students": 3,
+            "CEO": null
+        }
+    ]
+
+    // JSON.stringify() - javascript-ის მონცამეთა ტიპებს (array, object, bool, number, null) პირდაპირ უბრალოდ string-ად გადაწერს
+    // JSON.parse() - უბრალო string-ს გარდაქმნის js რეალურ მონაცემებად სხვადსხვა ტიპიებით
+
+
+    // localStorage.setItem("Academy", JSON.stringify(data))
+    console.log(JSON.parse(localStorage.getItem("Academy")))
+    </script>
+</body>
+</html>

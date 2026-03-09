@@ -128,3 +128,6 @@ except - გამონაკლისი, მოსალოდნელი
 
 level 50:
 pure - წმიდნა
+
+level 71:
+JSON - JavaScript Object Notation
