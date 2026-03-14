@@ -1,0 +1,6 @@
+https://nodejs.org/en
+
+node -v
+npm -v
+npm install
+npm init
