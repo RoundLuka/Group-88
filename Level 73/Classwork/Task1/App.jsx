@@ -1,3 +1,5 @@
+// React-ში კომპონენტია ფუნქცია რომელიც აბრუნებს JSX-ს
+
 import Card from "./Card";
 import Header from "./Header";
 
@@ -35,3 +37,15 @@ function App() {
 
     </>
   )
+}
+
+
+// function App () {
+//   let darkMode = false;
+
+//   return (
+//     {darkMode ? "ryer" : "eryre"}
+//   )
+// }
+
+export default App;
