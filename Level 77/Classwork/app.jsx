@@ -30,7 +30,7 @@ function App () {
           <li>Germany</li>
           <li>Greenland</li>
         </ul>
-        <button onClick={handleClick}>Click me</button>
+        <button onClick={()=>{alert("Purchase Complete")}}>Purchase</button>
       </div>
     )
   }
