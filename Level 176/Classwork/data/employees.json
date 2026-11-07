@@ -1,0 +1,26 @@
+{
+    "privateKey": "1ffce66bca59c3ae83fb01ad501346c0677fb963750a7adf",
+    "employees": [
+        {
+        "id": 1,
+        "name": "Nika",
+        "role": "Developer",
+        "salary": 4200,
+        "personalId": "01001012345"
+        },
+        {
+        "id": 2,
+        "name": "Mariam",
+        "role": "Designer",
+        "salary": 3700,
+        "personalId": "01001067890"
+        },
+        {
+        "id": 3,
+        "name": "Giorgi",
+        "role": "Manager",
+        "salary": 5500,
+        "personalId": "01001024680"
+        }
+    ]
+}
